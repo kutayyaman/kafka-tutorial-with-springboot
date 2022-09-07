@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/v1/kafka")
-public class MessageController {
+public class StringMessageController {
     private final StringKafkaProducer stringKafkaProducer;
 
-    public MessageController(StringKafkaProducer stringKafkaProducer) {
+    public StringMessageController(StringKafkaProducer stringKafkaProducer) {
         this.stringKafkaProducer = stringKafkaProducer;
     }
 
