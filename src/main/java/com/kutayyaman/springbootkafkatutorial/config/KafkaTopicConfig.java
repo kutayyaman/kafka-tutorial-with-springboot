@@ -7,11 +7,11 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaTopicConfig {
-    public static final String EXAMPLE_TOPIC_NAME = "example2";
+    public static final String STRING_TOPIC = "stringTopic";
 
     @Bean
     public NewTopic exampleTopic() {
-        return TopicBuilder.name(EXAMPLE_TOPIC_NAME)
+        return TopicBuilder.name(STRING_TOPIC)
                 .build();
     }
 }
