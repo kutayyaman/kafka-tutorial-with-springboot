@@ -7,8 +7,8 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 @Service
-public class KafkaConsumer {
-    private static final Logger LOGGER = LoggerFactory.getLogger(KafkaConsumer.class);
+public class StringKafkaConsumer {
+    private static final Logger LOGGER = LoggerFactory.getLogger(StringKafkaConsumer.class);
 
     @KafkaListener(topics = KafkaTopicConfig.EXAMPLE_TOPIC_NAME, groupId = "myGroup")
     public void consume(String message) {
