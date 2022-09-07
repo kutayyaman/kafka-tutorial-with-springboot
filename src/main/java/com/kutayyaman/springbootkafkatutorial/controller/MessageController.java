@@ -1,7 +1,7 @@
 package com.kutayyaman.springbootkafkatutorial.controller;
 
 import com.kutayyaman.springbootkafkatutorial.dto.MessageDTO;
-import com.kutayyaman.springbootkafkatutorial.kafka.KafkaProducer;
+import com.kutayyaman.springbootkafkatutorial.kafka.producer.KafkaProducer;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

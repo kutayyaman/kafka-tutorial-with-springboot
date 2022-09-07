@@ -1,4 +1,4 @@
-package com.kutayyaman.springbootkafkatutorial.kafka;
+package com.kutayyaman.springbootkafkatutorial.kafka.producer;
 
 import com.kutayyaman.springbootkafkatutorial.config.KafkaTopicConfig;
 import com.kutayyaman.springbootkafkatutorial.dto.MessageDTO;
