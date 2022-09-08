@@ -8,6 +8,8 @@ Method	| Path	| Description	| User authenticated	| Available from UI
 POST	| /api/v1/kafka/json-message/publish	| Produces a json message	| × | ×
 POST	| api/v1/kafka/publish	| Produces a string message	| × | ×
 
+If you want to see the produced messages consumers log all the messages produced, and you can see them from logs.
+
 ## Requirements:
 * JDK >= 18
 * kafka server
