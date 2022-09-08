@@ -1,6 +1,6 @@
 # kafka-tutorial-with-springboot
 
-If you want to try this project you must set up a kafka server on port 9092 and after that you can try to use this project from endpoints.
+If you want to try this project you must set up a `kafka` server on port `9092` and after that you can try to use this project from endpoints.
 
 ## Services Table
 Method	| Path	| Description	| User authenticated	| Available from UI
